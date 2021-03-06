@@ -58,19 +58,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>DB464379-2ACB-4FB5-8B8D-BB26DFD65C2C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0069FE78-0C03-46D8-96E6-C1413FFDA70A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Micah Rosales</string>
@@ -82,6 +69,25 @@
 	<string>Emoji Go</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>80A05DD1-A820-4EAC-9A0C-0CBA13E93992</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -98,7 +104,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>emoji</string>
+				<string>e</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -129,25 +135,6 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>D9FC02E8-F9F3-4D65-A221-E182DBA7D567</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>80A05DD1-A820-4EAC-9A0C-0CBA13E93992</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -198,56 +185,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>e</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Loading Results</string>
-				<key>script</key>
-				<string>./alfred-emoji "$@"
-</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Searching for {query}</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>DB464379-2ACB-4FB5-8B8D-BB26DFD65C2C</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -284,7 +221,7 @@ Customization:
 		<key>0069FE78-0C03-46D8-96E6-C1413FFDA70A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>490</integer>
 			<key>ypos</key>
 			<integer>215</integer>
 		</dict>
@@ -302,14 +239,7 @@ Customization:
 			<key>xpos</key>
 			<integer>235</integer>
 			<key>ypos</key>
-			<integer>115</integer>
-		</dict>
-		<key>DB464379-2ACB-4FB5-8B8D-BB26DFD65C2C</key>
-		<dict>
-			<key>xpos</key>
-			<integer>240</integer>
-			<key>ypos</key>
-			<integer>305</integer>
+			<integer>210</integer>
 		</dict>
 		<key>DCCA7B50-3D81-4B7C-B8DA-6AE3FB7B2F31</key>
 		<dict>
